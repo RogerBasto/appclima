@@ -1,0 +1,69 @@
+body{
+    margin: 0%;
+    padding: 0;
+}
+
+.btn{
+    background-color: white;
+    color: rgb(2, 32, 42);
+}
+
+.division{
+    display: flex;
+}
+
+.d-flex{
+    position: relative;
+    top: 20px;
+    margin: 5%;
+}
+
+.info{
+    background:rgb(2, 32, 42);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+}
+
+.info2{
+    background-image: url(/Users/basto/OneDrive/Documentos/pexels-karolina-grabowska-4207904.jpg);
+    height: 100vh;
+    width: 60%;
+}
+
+.weather{
+    position: relative;
+    top: 100px;
+    margin: 30px 30px;
+    color: black;
+    background: white;
+    padding: 80px;
+    text-align: center;
+    display: none;
+    border-radius: 15px;
+    font-family: 'Fredoka One';
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ciudad{
+    font-size: 35px;
+}
+
+.temperatura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.temp{
+    font-size: 25px;
+}
+.clima{
+    font-size: 20px;
+}

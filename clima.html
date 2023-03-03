@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>App clima</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="clima.css" media="all">
+    <script src="https://kit.fontawesome.com/53d3033b18.js" crossorigin="anonymous"></script>
+    <script src="clima.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="division">
+        <div class="info">
+        <form class="d-flex" role="search" id="busqueda">
+            <input class="form-control me-2" type="search" placeholder="Buscar ciudad" aria-label="Search" id="searchbox">
+            <button class="btn btn-outline-success btn btn-light" type="submit">Buscar</button>
+          </form>
+
+            <div class="weather" id="card">
+                <div class="ubicacion">
+                    <i class="fa-sharp fa-solid fa-location-dot fa-3x"></i>
+                    <div class="ciudad" id="ciudad"></div>
+                </div>
+                <div class="fecha" id="fecha"></div>
+                <br>
+                <div class="temperatura">
+                    <i class="fa-solid fa-temperature-three-quarters fa-2x" id="img"></i>
+                    <div class="temp" id="temp"></div>
+                </div>
+                <br>
+                <div class="clima" id="clima"></div> 
+            </div> 
+        </div>
+
+        <div class="info2"> 
+        </div>
+
+
+    </section>
+    
+
+</body>
